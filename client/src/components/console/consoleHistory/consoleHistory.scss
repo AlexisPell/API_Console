@@ -1,0 +1,75 @@
+.history {
+  background: #F6F6F6;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px 25px 5px 10px;
+  border-bottom: 1px solid #ccc;
+  overflow: auto;
+  position: relative;
+
+  &__close-btn {
+    position: sticky;
+    right: -25px;
+    background-color: #F6F6F6;
+  }
+
+  &__icon {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  &__link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 5px 0 5px;
+    background: #fff;
+    padding: 4px 5px;
+    border-radius: 5px;
+
+    &-info {
+      display: flex;
+      flex-direction: column;
+      margin: 0 2px;
+      border-radius: 40%;
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.2);
+      }
+
+      &>* {
+        width: 4px;
+        height: 4px;
+        margin-bottom: 2px;
+        margin-left: 6px;
+        margin-right: 6px;
+        border-radius: 50%;
+        background: rgba(0, 0, 0, 0.25);
+
+
+      }
+    }
+  }
+
+  .bg-get {
+    background-color: #0275d8;
+  }
+
+  .bg-post {
+    background-color: #5bc0de;
+  }
+
+  .bg-put {
+    background-color: #f0ad4e;
+  }
+
+  .bg-delete {
+    background-color: #d9534f;
+  }
+}

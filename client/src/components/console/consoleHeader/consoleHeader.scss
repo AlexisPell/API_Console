@@ -1,0 +1,35 @@
+.header {
+  background: #F6F6F6;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px 5px 10px;
+  border-bottom: 1px solid #ccc;
+
+  &__interface {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__info {
+    margin-right: 25px;
+    padding: 1px 7px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  &__btn {
+    background-color: #F6F6F6;
+    border: none;
+
+    &-icon {
+      color: rgb(206, 151, 34);
+    }
+
+    &:focus {
+      background: #ccc;
+      border: none;
+    }
+  }
+}

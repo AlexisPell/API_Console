@@ -1,0 +1,42 @@
+.request {
+  &__text {
+    padding-bottom: 5px;
+  }
+
+  &__params {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+
+    &-buttons {
+      display: flex;
+      margin-bottom: 5px;
+
+      &>* {
+        margin-right: 10px;
+        border-radius: 9px;
+      }
+    }
+
+    &-req-type {
+      &:nth-child(2) {
+        align-self: center;
+      }
+    }
+
+    &-input {
+      margin-bottom: 5px;
+      height: 30px;
+    }
+  }
+
+  &__headers {
+    resize: none;
+    margin-bottom: 5px;
+  }
+
+  &__body {
+    resize: none;
+  }
+}

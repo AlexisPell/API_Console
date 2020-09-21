@@ -1,0 +1,14 @@
+.register {
+  margin: auto;
+  width: 60%;
+  padding: 15px;
+  background: #fff;
+  border-radius: 5px;
+  margin-top: 10%;
+
+  &__lead {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

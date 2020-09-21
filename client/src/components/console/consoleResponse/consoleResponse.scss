@@ -1,0 +1,28 @@
+.response {
+  overflow: hidden;
+
+  &__text {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__body {
+    border: 1.5px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+    height: 371px;
+    padding: 5px;
+    overflow: hidden;
+  }
+
+  &__spread {
+    border: 1.5px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+    max-height: 677px;
+    padding: 5px;
+    overflow: auto;
+  }
+}
